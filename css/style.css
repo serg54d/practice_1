@@ -1,0 +1,271 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* fonts for task1 and task2 */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+
+
+/* fonts for task3 and task4 */
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Light.woff2') format('woff2'),
+		 url('../fonts/Poppins-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+		 url('../fonts/Poppins-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Poppins';
+	src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+		 url('../fonts/Poppins-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+	background-color: rgb(235, 235, 235);
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+}
+h2 {
+	font-size: 25px;
+	font-weight: 700;
+	
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+	max-width: 1440px;
+	padding: 0px 210px 0px 210px;
+	margin: 0 auto;
+}
+/* ------------task1----------------- */
+.header {
+	
+}
+.task1 {
+}
+.task1text {
+}
+.spantask1 {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom: 33px;
+	color: #4B4B4B;
+}
+.titletask1 {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	max-width: 583px;
+	margin-bottom: 36px;
+	color: #02133C;
+}
+
+.paragraphtask1 {
+	font-size: 16px;
+	line-height: 24px;
+	max-width: 846px;
+	margin: 0px 0px 54px 0px;
+	color: #4B4B4B;
+}
+
+.task1img {
+
+}
+
+.imgtask1 {
+	max-width: 846px;
+	max-height: 420px;
+	margin-bottom: 110px;
+}
+
+/*------------task2-----------------*/
+.main {
+	margin: 0px 0px 236px 0px;
+}
+
+.task2 {
+	margin: 0px 0px 236px 0px;
+}
+
+.card {
+	display: block;
+	max-width: 324px;
+	max-height: 340px;
+	background-color: #fff;
+	padding: 50px 44px 50px 43px;
+	text-align: center;
+	margin: 0px 0px 24px 0px;
+}
+
+.cardcontent {
+	max-width: 237px;
+	max-height: 240px;
+}
+
+.cardicon {
+	display: inline-block;
+	text-align: center;
+	padding-bottom: 33px;
+	vertical-align: top;
+}
+
+.titlecard {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #02133C;
+	padding-bottom: 20px;
+}
+.paragraphcard1 {
+	font-size: 16px;
+	line-height: 24px;
+	color: #4B4B4B;
+}
+/*---------------task3-------------------*/
+.task3 {
+	font-family: "Poppins";
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0px 0px 236px 0px;
+}
+
+.task3contentall {
+	max-width: 1040px;
+}
+.task3titletop {
+	font-weight: 600;
+	color: #000000;
+}
+.titletop1 {
+	font-size: 32px;
+	line-height: 48px;
+	margin: 0px 0px 26px 0px;
+}
+.titletop2 {
+	font-size: 24px;
+	line-height: 36px;
+	margin: 0px 0px 40px 0px;
+}
+
+.task3contenttitle {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;	
+	margin: 0px 0px 25px 0px;
+}
+
+.aboutcontent {
+	display: block;
+	margin: 0px 0px 25px 0px;
+}
+
+.task3contentlist {
+	margin: 0px 0px 25px 0px;
+}
+
+.task3paragraphcontent {
+	margin: 0px 0px 25px 0px;
+}
+
+/*--------------task4---------------------*/
+.footer {
+	font-family: "Poppins";
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.task4 {
+	padding: 0px 0px 200px 0px;
+}
+
+.footercard {
+	max-width: 534px;
+	max-height: 550px;
+	background-color: #fff;
+	padding: 50px;
+}
+
+.footercardcontent {
+}
+
+.footercardimg {
+	width: 50px;
+	height: 50px;
+	border: 15px solid #0156FF;
+	background: #0156FF;
+	border-radius: 48% 52% 100% 0% / 54% 48% 52% 46% ;
+	margin: 0px 0px 10px 0px;
+	
+}
+
+.footercardtitle {
+	font-weight: 500;
+	font-size: 44px;
+	line-height: 58px;
+	margin: 0px 0px 25px 0px;
+}
+
+.footercardparagraph {
+}
+
